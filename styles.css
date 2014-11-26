@@ -1,7 +1,27 @@
 body{
-	background:red
-
+	background: rgba(70,254,255,.5);
+  	font-family: 'Londrina Shadow', cursive;
+	font-weight: bold;
 }
 .service{
-	display: inherit;
+	font-size: 20px;
+	margin: 30px;
+	display: inline;
+	height: 240px;
+	font-family: 'Londrina Shadow';
 }
+button {
+	width: 100px;
+	height: 80px;
+	color: rgb(232,59,128);
+	background-color: rgb(255,181,77);
+	border: 0px;
+}
+#display {
+	color: white;
+	font-size: 400px;
+	height: 45px;
+}
+ #service-what{
+ 	height: 34px;
+ }

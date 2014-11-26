@@ -10,6 +10,7 @@ var display=document.getElementById("display");
 function displayTip(tipAmount) {
 	var tip= total.value * tipAmount;
 	display.innerHTML= tip;
+	
 }
 
 total.onkeyup= function() { tipHeader.innerHTML = total.value; }
